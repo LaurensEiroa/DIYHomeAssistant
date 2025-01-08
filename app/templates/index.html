@@ -6,4 +6,8 @@
 <p>Humidity: 60%</p>
 <a href="{{ url_for('bedroom') }}"><button>Go to Bedroom</button></a>
 <a href="{{ url_for('livingroom') }}"><button>Go to Livingroom</button></a>
+<!-- Link to the CSS file -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
 {% endblock %}
+
+

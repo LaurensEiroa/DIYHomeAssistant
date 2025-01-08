@@ -1,10 +1,12 @@
-<PROJECT ROOT>
+DIYHomeAssistant
 |--- app/
 |    |--- __init__.py
 |    |--- static/
 |    |    |--- css/
+|    |    |    |--- styles.css
 |    |    |--- js/
 |    |    |--- img/
+|    |    |    |--- background.jpg
 |    |--- templates/
 |    |    |--- includes/
 |    |    |    |--- navigation.html

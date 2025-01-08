@@ -5,6 +5,6 @@ def create_app():
     app.config.from_object('config.Config')
 
     with app.app_context():
-        from routes import main_routes, bedroom_routes, livingroom_routes
+        from app.routes import main_routes, bedroom_routes, livingroom_routes
 
     return app
