@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Bedroom</h1>
+<p>Temperature: 22°C</p>
+<p>Humidity: 55%</p>
+<form method="post" action="{{ url_for('toggle_light') }}">
+    <button type="submit" name="light_status" value="on">Turn On Light</button>
+    <button type="submit" name="light_status" value="off">Turn Off Light</button>
+</form>
+<a href="{{ url_for('start_bedroom_camera') }}"><button>Start Camera</button></a>
+<a href="{{ url_for('stop_bedroom_camera') }}"><button>Stop Camera</button></a>
+<img src="{{ url_for('bedroom_video_feed') }}" width="640" height="480">
+{% endblock %}

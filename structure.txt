@@ -1,0 +1,21 @@
+<PROJECT ROOT>
+|--- app/
+|    |--- __init__.py
+|    |--- static/
+|    |    |--- css/
+|    |    |--- js/
+|    |    |--- img/
+|    |--- templates/
+|    |    |--- includes/
+|    |    |    |--- navigation.html
+|    |    |--- base.html
+|    |    |--- index.html
+|    |    |--- bedroom.html
+|    |    |--- livingroom.html
+|    |--- routes/
+|    |    |--- __init__.py
+|    |    |--- main_routes.py
+|    |    |--- bedroom_routes.py
+|    |    |--- livingroom_routes.py
+|--- config.py
+|--- run.py
